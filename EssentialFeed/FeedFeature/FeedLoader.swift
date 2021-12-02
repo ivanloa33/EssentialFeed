@@ -6,6 +6,7 @@
 //
 
 import Foundation
+
 typealias LoadFeedResult = Result<[FeedItem], Error>
 
 protocol FeedLoader {
