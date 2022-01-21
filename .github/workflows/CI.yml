@@ -14,7 +14,7 @@ jobs:
     steps:
     - uses: actions/checkout@v2
     
-    - name: Select Xcode
+    - name: Select Xcode_13_0
       run: sudo xcode-select -switch /Applications/Xcode.app
       
     - name: Build and test
